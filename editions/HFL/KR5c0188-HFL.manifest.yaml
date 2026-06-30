@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0188/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0188/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 正一威儀經
+  date: '2015-08-29 00:54:12.707417'
+  source:
+    repository: kanripo
+    path: KR5c0188
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0188_000-HFL.yaml, hash: 'sha256:f77dd44e966dde195986a20ee4c0393122e79c3be6ec47bc0a49b1a50bb2c22a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0188_000-HFL.markers.yaml, hash: 'sha256:ea36b0b6346f09005728aa0895c96d4b7c08451763a7fb2baf34340d092d7dd7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0188_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5541
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b1123f5e79ae047d0a30067c2f3acd4f0a52e7a9a3c343fbb99c8c7586eee608

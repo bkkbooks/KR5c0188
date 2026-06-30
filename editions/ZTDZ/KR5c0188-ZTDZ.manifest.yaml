@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0188/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0188/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 正一威儀經
+  date: '2015-08-29 00:54:12.707417'
+  source:
+    repository: kanripo
+    path: KR5c0188
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0188_000-ZTDZ.yaml, hash: 'sha256:4a684fb6d319de6193e8b22419a1fa3abeb9a553529e9be106a3c050af543160'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0188_000-ZTDZ.markers.yaml, hash: 'sha256:fb7b493a0169e0738c6a27d54103f35c8676d41660366c6aaca8e036e49da2c4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0188_SJB_000-180252c
+    span:
+    - body
+    - 0
+    - 5541
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9848f96a27f76ede9e8f3c171e0c98658918cac1fc03f1d8fe882abc93f4f433
